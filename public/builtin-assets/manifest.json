@@ -1,0 +1,1290 @@
+{
+  "schema": 1,
+  "generator": "scripts/generate-assets.ts",
+  "assets": [
+    {
+      "id": "sparkle",
+      "name": "Yıldız Işıltısı",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "sparkle.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "yıldız",
+        "parıltı",
+        "sparkle"
+      ],
+      "transparent": true,
+      "source": "sparkle.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "08e5a80e1f79fd7974a04c2dedbfcabcbcf706f246bcdd07c833ed3029c87f9f"
+    },
+    {
+      "id": "burst",
+      "name": "Patlama Efekti",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "burst.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "patlama",
+        "vurgu",
+        "burst"
+      ],
+      "transparent": true,
+      "source": "burst.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "edf21913e590fe396db7db5257321d317a2636033f56dda73e257295ce66ec04"
+    },
+    {
+      "id": "heart",
+      "name": "Mercan Kalp",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "heart.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "kalp",
+        "sevgi",
+        "heart"
+      ],
+      "transparent": true,
+      "source": "heart.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "c95df4114cad8d765f706c3693420bed9414b921be72e679e9c87b69d7ea95fb"
+    },
+    {
+      "id": "arrow-curved",
+      "name": "Kıvrık Ok",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "arrow-curved.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "ok",
+        "işaret",
+        "arrow"
+      ],
+      "transparent": true,
+      "source": "arrow-curved.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "513690055e6688180e87b997e8ffa63181a19e32a85c768e7b306183c1a30a0d"
+    },
+    {
+      "id": "arrow-left",
+      "name": "Sola Geri Sar",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "arrow-left.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "geri",
+        "ok",
+        "reverse"
+      ],
+      "transparent": true,
+      "source": "arrow-left.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "f561ccd00414a5dc487e20b232c8f357c27d94281e25c360ff652cf4eb6dfe7f"
+    },
+    {
+      "id": "play",
+      "name": "Oynat Düğmesi",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "play.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "oynat",
+        "video",
+        "play"
+      ],
+      "transparent": true,
+      "source": "play.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "4e52a51306fb757e1bfc66111cf6c37801908a9e6082727af4f6e001daa83150"
+    },
+    {
+      "id": "check",
+      "name": "Onay İşareti",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "check.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "onay",
+        "tamam",
+        "check"
+      ],
+      "transparent": true,
+      "source": "check.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "a1f9f90c91e8e0e1ce6c183aa3200610eecc44da6bb423a92228bf0f46c4189d"
+    },
+    {
+      "id": "pin",
+      "name": "Konum İğnesi",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "pin.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "konum",
+        "harita",
+        "pin"
+      ],
+      "transparent": true,
+      "source": "pin.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "e2a5dfdeeadc5a4ea359daecb69913b15b945b576a562f42000eb208b4728c75"
+    },
+    {
+      "id": "speech",
+      "name": "Konuşma Balonu",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "speech.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "konuşma",
+        "balon",
+        "speech"
+      ],
+      "transparent": true,
+      "source": "speech.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "9c170009d12e12dc8716d89ef120477fcad67dc6c36b9b6a6785fd4d61f1c88d"
+    },
+    {
+      "id": "quote",
+      "name": "Alıntı İşareti",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "quote.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "alıntı",
+        "tırnak",
+        "quote"
+      ],
+      "transparent": true,
+      "source": "quote.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "12c4661d8557a1ca4d3d1d5959f1ae035ce4f5c1f7a9fd3d9b51665c4d8f63a3"
+    },
+    {
+      "id": "film",
+      "name": "Mini Film Şeridi",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "film.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "film",
+        "sinema",
+        "film"
+      ],
+      "transparent": true,
+      "source": "film.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "9884e1cbc9bd29db37f6cf25f2342d149e8c4783f58df80b3c79398856f501f7"
+    },
+    {
+      "id": "clap",
+      "name": "Klaket",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "clap.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "klaket",
+        "çekim",
+        "clap"
+      ],
+      "transparent": true,
+      "source": "clap.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "405f13276180cf2d0908db9c05855204a19a00888808a723b0f93063843a18c6"
+    },
+    {
+      "id": "sun",
+      "name": "Güneş",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "sun.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "güneş",
+        "hava",
+        "sun"
+      ],
+      "transparent": true,
+      "source": "sun.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "5a26fa1a623f50de0b02f006bf96c204e741e19fe3104229d814cd28750bd032"
+    },
+    {
+      "id": "rainbow",
+      "name": "Gökkuşağı",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "rainbow.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "gökkuşağı",
+        "renkli",
+        "rainbow"
+      ],
+      "transparent": true,
+      "source": "rainbow.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "72e4b1fb7f358a26cb8c490d7f42c6b7460ac3ddc0f9ed2fefb931a73315301f"
+    },
+    {
+      "id": "confetti",
+      "name": "Konfeti",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "confetti.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "kutlama",
+        "parti",
+        "confetti"
+      ],
+      "transparent": true,
+      "source": "confetti.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "c6707fb3cb83e65edc9c1fa005905ea11cfb6c767149c780682a5e8e1e90a559"
+    },
+    {
+      "id": "focus",
+      "name": "Odak Çerçevesi",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "focus.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "odak",
+        "kamera",
+        "focus"
+      ],
+      "transparent": true,
+      "source": "focus.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "6980831d3628e231fc4fadf4498416fe3a810c3e6e3b0e9ebb41e8f0d2da475f"
+    },
+    {
+      "id": "bg-midnight",
+      "name": "Gece Yarısı",
+      "category": "backgrounds",
+      "kind": "image",
+      "fileName": "bg-midnight.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "koyu mavi",
+        "gradyan",
+        "dark"
+      ],
+      "transparent": false,
+      "source": "bg-midnight.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "dae1a2b6a1eb65e9900b86719e3a1284c2f9ae17c7a74d6d5a4a1e0b34ab40c4"
+    },
+    {
+      "id": "bg-sunrise",
+      "name": "Gündoğumu Mercan",
+      "category": "backgrounds",
+      "kind": "image",
+      "fileName": "bg-sunrise.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "sıcak",
+        "gradyan",
+        "warm"
+      ],
+      "transparent": false,
+      "source": "bg-sunrise.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "1ca84334970aa8a666b7977ce1d5000af81f1b1b350aba5028c790a5a2a09f16"
+    },
+    {
+      "id": "bg-mint",
+      "name": "Nane Yeşili",
+      "category": "backgrounds",
+      "kind": "image",
+      "fileName": "bg-mint.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "taze",
+        "yeşil",
+        "mint"
+      ],
+      "transparent": false,
+      "source": "bg-mint.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "c31938e5ad92ca694b7b26015a753c54a70998bf0a42b413cfe04c571f5225ee"
+    },
+    {
+      "id": "bg-paper",
+      "name": "Kağıt Dokusu",
+      "category": "backgrounds",
+      "kind": "image",
+      "fileName": "bg-paper.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "kağıt",
+        "minimal",
+        "paper"
+      ],
+      "transparent": false,
+      "source": "bg-paper.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "4cac66901fa24fc17eb49a6d293435298a7b9c3728baec976eaa51a8bf647932"
+    },
+    {
+      "id": "bg-grid",
+      "name": "Koyu Izgara",
+      "category": "backgrounds",
+      "kind": "image",
+      "fileName": "bg-grid.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "teknoloji",
+        "ızgara",
+        "grid"
+      ],
+      "transparent": false,
+      "source": "bg-grid.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "1fb83ae17e952065224c5b42545ea00f3db281aafc8b673cb2ac3a96d6523ff4"
+    },
+    {
+      "id": "bg-orbit",
+      "name": "Mavi Mor Yörünge",
+      "category": "backgrounds",
+      "kind": "image",
+      "fileName": "bg-orbit.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "teknoloji",
+        "halka",
+        "orbit"
+      ],
+      "transparent": false,
+      "source": "bg-orbit.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "70eae2d30402784f8e1a195b9350c46b0330257bbdce9013132bf81392c2c5ef"
+    },
+    {
+      "id": "title-mint",
+      "name": "Yeşil İsim Şeridi",
+      "category": "titles",
+      "kind": "image",
+      "fileName": "title-mint.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "isim",
+        "alt bant",
+        "röportaj"
+      ],
+      "transparent": true,
+      "source": "title-mint.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "57905266fbe52f2bef5f897c7e2a945d924b5c7f8e4dde470766aba4a59a51a3"
+    },
+    {
+      "id": "title-coral",
+      "name": "Mercan Altyazı Bandı",
+      "category": "titles",
+      "kind": "image",
+      "fileName": "title-coral.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "altyazı",
+        "alt bant",
+        "başlık"
+      ],
+      "transparent": true,
+      "source": "title-coral.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "34da47a580307ad9763eacc66faf17d6e2d6948f6b741f9e7243679779619794"
+    },
+    {
+      "id": "title-glass",
+      "name": "Koyu Bilgi Kartı",
+      "category": "titles",
+      "kind": "image",
+      "fileName": "title-glass.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "bilgi",
+        "kart",
+        "başlık"
+      ],
+      "transparent": true,
+      "source": "title-glass.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "3c4f8a1f97bc00c0233273750b16f1800616fe19e809555c7948c93178a47363"
+    },
+    {
+      "id": "title-frame",
+      "name": "Sinematik Çerçeve",
+      "category": "titles",
+      "kind": "image",
+      "fileName": "title-frame.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "çerçeve",
+        "sinema",
+        "başlık"
+      ],
+      "transparent": true,
+      "source": "title-frame.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "f56d05d466cad1119f384e214a1592506ed155a10a0c770659f0e1276030402b"
+    },
+    {
+      "id": "title-corner",
+      "name": "Köşe İşareti",
+      "category": "titles",
+      "kind": "image",
+      "fileName": "title-corner.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "köşe",
+        "etiket",
+        "başlık"
+      ],
+      "transparent": true,
+      "source": "title-corner.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "bcf1986de8afa77df9b297e9d1b15919fa028a437f2f2bd7cb7008a0d143dc3e"
+    },
+    {
+      "id": "title-ribbon",
+      "name": "Vurgu Şeridi",
+      "category": "titles",
+      "kind": "image",
+      "fileName": "title-ribbon.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "vurgu",
+        "şerit",
+        "başlık"
+      ],
+      "transparent": true,
+      "source": "title-ribbon.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "952cdb3f47146598c91882aee7e1bd753495cf858d5824b9d800f756808b98d5"
+    },
+    {
+      "id": "sound-pop",
+      "name": "Baloncuk Pop",
+      "category": "sounds",
+      "kind": "audio",
+      "fileName": "sound-pop.wav",
+      "width": 0,
+      "height": 0,
+      "duration": 0.25,
+      "tags": [
+        "balon",
+        "geçiş",
+        "pop",
+        "转场"
+      ],
+      "transparent": false,
+      "source": "../../scripts/generate-assets.ts",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "1b4d80e4869085e8164a29e39ce704223578b716f8e7c1962f0bf6f0dbee6a5b"
+    },
+    {
+      "id": "sound-click",
+      "name": "Hafif Tıklama",
+      "category": "sounds",
+      "kind": "audio",
+      "fileName": "sound-click.wav",
+      "width": 0,
+      "height": 0,
+      "duration": 0.12,
+      "tags": [
+        "tık",
+        "arayüz",
+        "click"
+      ],
+      "transparent": false,
+      "source": "../../scripts/generate-assets.ts",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "df05ffe30811e5f5e7cc33a4baefc2111d25b3b34ffd0c40f0444efef8b7c277"
+    },
+    {
+      "id": "sound-chime",
+      "name": "Melodik Zil",
+      "category": "sounds",
+      "kind": "audio",
+      "fileName": "sound-chime.wav",
+      "width": 0,
+      "height": 0,
+      "duration": 1.2,
+      "tags": [
+        "zil",
+        "bildirim",
+        "chime"
+      ],
+      "transparent": false,
+      "source": "../../scripts/generate-assets.ts",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "d305ed72fccd44117821b947e3e3f04a5693557ec15293882802fc89d7004fb5"
+    },
+    {
+      "id": "sound-rise",
+      "name": "Yükselen Ton",
+      "category": "sounds",
+      "kind": "audio",
+      "fileName": "sound-rise.wav",
+      "width": 0,
+      "height": 0,
+      "duration": 0.65,
+      "tags": [
+        "yükselen",
+        "geçiş",
+        "rise",
+        "转场"
+      ],
+      "transparent": false,
+      "source": "../../scripts/generate-assets.ts",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "8809eb44b523391daabe0ecb83e9c6c2ddf454e626fcf26923feb004a797236b"
+    },
+    {
+      "id": "sound-whoosh",
+      "name": "Hızlı Rüzgar (Whoosh)",
+      "category": "sounds",
+      "kind": "audio",
+      "fileName": "sound-whoosh.wav",
+      "width": 0,
+      "height": 0,
+      "duration": 0.8,
+      "tags": [
+        "hızlı",
+        "geçiş",
+        "whoosh",
+        "转场"
+      ],
+      "transparent": false,
+      "source": "../../scripts/generate-assets.ts",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "a84775d8aa8b6b759e359561c3a622a7f713651ad0923179a191b14895d731e9"
+    },
+    {
+      "id": "sound-complete",
+      "name": "Başarı Sesi",
+      "category": "sounds",
+      "kind": "audio",
+      "fileName": "sound-complete.wav",
+      "width": 0,
+      "height": 0,
+      "duration": 1.4,
+      "tags": [
+        "başarı",
+        "tamam",
+        "complete"
+      ],
+      "transparent": false,
+      "source": "../../scripts/generate-assets.ts",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "546b9466f66074e0ad261c7ec2e9eccf4994142574e1d4cc0d037092f55aca3b"
+    },
+    {
+      "id": "bolt",
+      "name": "Şimşek",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "bolt.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "şimşek",
+        "enerji",
+        "bolt"
+      ],
+      "transparent": true,
+      "source": "bolt.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "ff3d6875d14c0be92d179752b30ca6fde1e9d22b778c88b3f9a667e9d3f44d91"
+    },
+    {
+      "id": "cloud",
+      "name": "Bulut",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "cloud.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "bulut",
+        "hava",
+        "cloud"
+      ],
+      "transparent": true,
+      "source": "cloud.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "d6df8df0b5f63d6e11ea001478de1dae28f0bd2305da576154a2bbf09bc0b89a"
+    },
+    {
+      "id": "moon",
+      "name": "Hilal ve Yıldız",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "moon.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "ay",
+        "gece",
+        "moon"
+      ],
+      "transparent": true,
+      "source": "moon.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "305d639fa9459b665a17448dffa768c981350f7d57e1ff11af5d782325e275ee"
+    },
+    {
+      "id": "leaf",
+      "name": "Yeşil Yaprak",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "leaf.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "yaprak",
+        "doğa",
+        "leaf"
+      ],
+      "transparent": true,
+      "source": "leaf.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "9f3918ce37d5e922e93c4d7d6b619bf2749d36dc34957297bb521a67607a3825"
+    },
+    {
+      "id": "flame",
+      "name": "Ateş",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "flame.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "ateş",
+        "sıcak",
+        "flame"
+      ],
+      "transparent": true,
+      "source": "flame.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "fa52e2cedcc2bd3daf95c2a4e2e7a4c1790448b0463595501fe1aec950df7b09"
+    },
+    {
+      "id": "camera",
+      "name": "Fotoğraf Makinesi",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "camera.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "kamera",
+        "seyahat",
+        "camera"
+      ],
+      "transparent": true,
+      "source": "camera.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "63fb6b525fa215330a3dd3a63bda6245e6c8e4d167a43b9c8a1cca6df3069030"
+    },
+    {
+      "id": "headphones",
+      "name": "Kulaklık",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "headphones.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "müzik",
+        "kulaklık",
+        "headphones"
+      ],
+      "transparent": true,
+      "source": "headphones.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "a8fe24ff80b48b11f28cbeb3b113c07e1ddd73bca184cc22eeb7a13dbd53769f"
+    },
+    {
+      "id": "microphone",
+      "name": "Mikrofon",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "microphone.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "kayıt",
+        "podcast",
+        "microphone"
+      ],
+      "transparent": true,
+      "source": "microphone.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "92f1099ea1b7ce6458f1456c962a8fa7e05157c71fc0cf3778f2dcbc118c668e"
+    },
+    {
+      "id": "coffee",
+      "name": "Kahve",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "coffee.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "kahve",
+        "içecek",
+        "coffee"
+      ],
+      "transparent": true,
+      "source": "coffee.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "42257814a8570bd75590b5a0803d5a6c72cba0db46ce9d0732d43dbbc95bdd33"
+    },
+    {
+      "id": "paw",
+      "name": "Pati İzi",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "paw.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "pati",
+        "evcil",
+        "paw"
+      ],
+      "transparent": true,
+      "source": "paw.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "ba486f2c2a35a579643a4a35bb03312cb734879ea4292a1287c6197b617b9cb8"
+    },
+    {
+      "id": "medal",
+      "name": "Madalya",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "medal.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "ödül",
+        "başarı",
+        "medal"
+      ],
+      "transparent": true,
+      "source": "medal.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "ebab6d6b2a4015097230c6b5eabe22c7d8a8c4803564ef12556a7688a9c1d805"
+    },
+    {
+      "id": "clock",
+      "name": "Saat",
+      "category": "stickers",
+      "kind": "image",
+      "fileName": "clock.png",
+      "width": 512,
+      "height": 512,
+      "duration": 5,
+      "tags": [
+        "saat",
+        "zaman",
+        "clock"
+      ],
+      "transparent": true,
+      "source": "clock.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "d40c314f214e8fbc254e8f8e3387998fbeddd09a748114051d112e8a54cd0315"
+    },
+    {
+      "id": "bg-aurora",
+      "name": "Kuzey Işıkları",
+      "category": "backgrounds",
+      "kind": "image",
+      "fileName": "bg-aurora.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "aurora",
+        "gece",
+        "aurora"
+      ],
+      "transparent": false,
+      "source": "bg-aurora.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "c22c00c7c6140a386d417d86fb72806b72f0f6708509515c07707097782f63d4"
+    },
+    {
+      "id": "bg-ocean",
+      "name": "Okyanus Dalgası",
+      "category": "backgrounds",
+      "kind": "image",
+      "fileName": "bg-ocean.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "okyanus",
+        "mavi",
+        "ocean"
+      ],
+      "transparent": false,
+      "source": "bg-ocean.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "6b91dcf24be75bcdd6cb8e13d05e1c475e614a9bcb6239f0a2b84ca13a2c77f8"
+    },
+    {
+      "id": "bg-lavender",
+      "name": "Lavanta Işıltısı",
+      "category": "backgrounds",
+      "kind": "image",
+      "fileName": "bg-lavender.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "mor",
+        "rüya",
+        "lavender"
+      ],
+      "transparent": false,
+      "source": "bg-lavender.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "c2d9634681a540af0e7e5d12129ffcaa2acea951166a52e4c925d9dab70c72aa"
+    },
+    {
+      "id": "bg-peach",
+      "name": "Şeftali Geometrik",
+      "category": "backgrounds",
+      "kind": "image",
+      "fileName": "bg-peach.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "pembe",
+        "geometrik",
+        "peach"
+      ],
+      "transparent": false,
+      "source": "bg-peach.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "d99f89b4c2c6d3ebbf8283e9bcb22c5324474e8fcf11f58e335732352ab5b32e"
+    },
+    {
+      "id": "bg-sand",
+      "name": "Çöl Kumları",
+      "category": "backgrounds",
+      "kind": "image",
+      "fileName": "bg-sand.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "çöl",
+        "doğa",
+        "sand"
+      ],
+      "transparent": false,
+      "source": "bg-sand.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "2836fe9ba7df03e1ddfa6f81a937ca6103016338729e039351dbc9259e768135"
+    },
+    {
+      "id": "bg-dots",
+      "name": "Krem Puantiye",
+      "category": "backgrounds",
+      "kind": "image",
+      "fileName": "bg-dots.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "nokta",
+        "sevimli",
+        "dots"
+      ],
+      "transparent": false,
+      "source": "bg-dots.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "ef06a8ba694328f6c99202cb9342efc12c5cc0f3f56cae74a7180e0a80379040"
+    },
+    {
+      "id": "bg-blueprint",
+      "name": "Mühendislik Çizimi",
+      "category": "backgrounds",
+      "kind": "image",
+      "fileName": "bg-blueprint.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "plan",
+        "teknoloji",
+        "blueprint"
+      ],
+      "transparent": false,
+      "source": "bg-blueprint.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "47b87e313f6e9c616029387f6d36416b4c7529db285bed6f9e883158b3e5d18f"
+    },
+    {
+      "id": "bg-comic",
+      "name": "Çizgi Roman Efekti",
+      "category": "backgrounds",
+      "kind": "image",
+      "fileName": "bg-comic.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "çizgi",
+        "vurgu",
+        "comic"
+      ],
+      "transparent": false,
+      "source": "bg-comic.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "1c1e344e4128a933c0054864d9718a125b5acd1e08240063e14584b2d8821266"
+    },
+    {
+      "id": "title-pill",
+      "name": "Oval İsimlik",
+      "category": "titles",
+      "kind": "image",
+      "fileName": "title-pill.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "kişi",
+        "oval",
+        "pill"
+      ],
+      "transparent": true,
+      "source": "title-pill.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "278756e505d94985103642243f30c6468bbecb071f00bda80d214cbcc1f96d22"
+    },
+    {
+      "id": "title-news",
+      "name": "Haber Bandı",
+      "category": "titles",
+      "kind": "image",
+      "fileName": "title-news.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "haber",
+        "bülten",
+        "news"
+      ],
+      "transparent": true,
+      "source": "title-news.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "15a9d9f57a5d5a4eec314799e7eac8562326604e884a1fc97251994b91fb34c7"
+    },
+    {
+      "id": "title-split",
+      "name": "İki Renkli Bölüm Kartı",
+      "category": "titles",
+      "kind": "image",
+      "fileName": "title-split.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "bölüm",
+        "kart",
+        "split"
+      ],
+      "transparent": true,
+      "source": "title-split.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "7bf8b792a1a163ebf27d3388337ee451ec875ef96cce428c1add3feb1c104bdb"
+    },
+    {
+      "id": "title-subtitle",
+      "name": "Karanlık Altyazı Bandı",
+      "category": "titles",
+      "kind": "image",
+      "fileName": "title-subtitle.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "altyazı",
+        "gradyan",
+        "subtitle"
+      ],
+      "transparent": true,
+      "source": "title-subtitle.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "732084f7584571d465f4ee303462680c90b0de53fa0ea77120a037361b522b8b"
+    },
+    {
+      "id": "title-tape",
+      "name": "Bantlı Not",
+      "category": "titles",
+      "kind": "image",
+      "fileName": "title-tape.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "not",
+        "bant",
+        "tape"
+      ],
+      "transparent": true,
+      "source": "title-tape.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "82cd523f37c3e4579a4d1440582f055b9f14ed3e41813d6cfbce288d62520547"
+    },
+    {
+      "id": "title-chapter",
+      "name": "Minimal Bölüm Çizgisi",
+      "category": "titles",
+      "kind": "image",
+      "fileName": "title-chapter.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "tags": [
+        "bölüm",
+        "minimal",
+        "chapter"
+      ],
+      "transparent": true,
+      "source": "title-chapter.svg",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "bf607f0955d2197cd69274043efb6d3d21a9cdb04cb851871679272c226fbb4e"
+    },
+    {
+      "id": "sound-shutter",
+      "name": "Kamera Deklanşörü",
+      "category": "sounds",
+      "kind": "audio",
+      "fileName": "sound-shutter.wav",
+      "width": 0,
+      "height": 0,
+      "duration": 0.22,
+      "tags": [
+        "fotoğraf",
+        "deklanşör",
+        "shutter"
+      ],
+      "transparent": false,
+      "source": "../../scripts/generate-assets.ts",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "bcf155d79eca340d9da306896e6be78bf6ff8f7df168fdcae05c05671a94292c"
+    },
+    {
+      "id": "sound-impact",
+      "name": "Derin Vuruş (Impact)",
+      "category": "sounds",
+      "kind": "audio",
+      "fileName": "sound-impact.wav",
+      "width": 0,
+      "height": 0,
+      "duration": 0.5,
+      "tags": [
+        "davul",
+        "vurgu",
+        "impact"
+      ],
+      "transparent": false,
+      "source": "../../scripts/generate-assets.ts",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "b40ee88e98821eaf6d1fe7bcdfc48429dcbd1ee2438acd7e7768287db2f6c0dd"
+    },
+    {
+      "id": "sound-twinkle",
+      "name": "Pırıltı Sesi",
+      "category": "sounds",
+      "kind": "audio",
+      "fileName": "sound-twinkle.wav",
+      "width": 0,
+      "height": 0,
+      "duration": 1.5,
+      "tags": [
+        "bildirim",
+        "yıldız",
+        "twinkle"
+      ],
+      "transparent": false,
+      "source": "../../scripts/generate-assets.ts",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "8b65a40d1f6b97f03d1fcbc1055c626bf2e7c7f0ffa80f975592aba4d303412e"
+    },
+    {
+      "id": "sound-fall",
+      "name": "Düşen Ton",
+      "category": "sounds",
+      "kind": "audio",
+      "fileName": "sound-fall.wav",
+      "width": 0,
+      "height": 0,
+      "duration": 0.65,
+      "tags": [
+        "düşüş",
+        "geçiş",
+        "fall",
+        "转场"
+      ],
+      "transparent": false,
+      "source": "../../scripts/generate-assets.ts",
+      "provenance": "original-programmatic",
+      "license": "MIT",
+      "sha256": "b03456af91f7c38c1319f8f7370cf113ca12186695d988aef64544f6d7b4449a"
+    }
+  ]
+}

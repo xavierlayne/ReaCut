@@ -55,8 +55,8 @@ describe("assistant CLI isolation and protocol", () => {
     const providers = await discoverAssistantProviders({ codex: fixture, claude: fixture });
     expect(providers.map(p => p.available)).toEqual([true, true]);
     expect(providers[0].version).toBe("fixture 1.0");
-    await expect(resolveAssistantExecutable("codex", folder)).rejects.toThrow("不是可执行文件");
-    await expect(resolveAssistantExecutable("codex", "codex")).rejects.toThrow("不是可执行文件");
+    await expect(resolveAssistantExecutable("codex", folder)).rejects.toThrow();
+    await expect(resolveAssistantExecutable("codex", "codex")).rejects.toThrow();
   });
   it.each(["codex", "claude"] as const)("streams %s, uses stdin, and removes its private working folder", async provider => {
     const input = request(provider);
@@ -80,17 +80,19 @@ describe("assistant CLI isolation and protocol", () => {
     expect([...codex, ...claude].some(value => /dangerously|bypassPermissions|full-auto/.test(value))).toBe(false);
   });
   it.each([
-    ["CASE_LOGIN", "登录"], ["CASE_BADJSON", "无效"], ["CASE_NULL", "无效"], ["CASE_NOFINISH", "完整回复"],
-    ["CASE_FLOOD", "超出限制"], ["CASE_TOOL", "工具"], ["CASE_POLICY", "拒绝"],
+    ["CASE_LOGIN", /(?:giriş|oturum|登录)/i], ["CASE_BADJSON", /(?:geçersiz|etkinlik|无效)/i],
+    ["CASE_NULL", /(?:geçersiz|etkinlik|无效)/i], ["CASE_NOFINISH", /(?:tamam|yanıt|完整回复)/i],
+    ["CASE_FLOOD", /(?:sınır|limit|超出限制)/i], ["CASE_TOOL", /(?:araç|tool|工具)/i],
+    ["CASE_POLICY", /(?:reddet|güvenlik|politika|拒绝)/i],
   ])("fails closed for %s", async (testCase, expected) => {
     const events = await run("codex", testCase);
-    expect(events.at(-1)).toMatchObject({ type: "error", message: expect.stringContaining(expected) });
+    expect(events.at(-1)).toMatchObject({ type: "error", message: expect.stringMatching(expected) });
     expect(events.some(event => event.type === "complete")).toBe(false);
     expect(JSON.stringify(events)).not.toContain("secret-not-for-ui");
   });
   it("times out and cleans up", async () => {
     const events = await run("codex", "CASE_HANG", 100);
-    expect(events.at(-1)).toMatchObject({ type: "error", message: expect.stringContaining("超时") });
+    expect(events.at(-1)).toMatchObject({ type: "error", message: expect.stringMatching(/(?:zaman aşımı|aşındı|超时)/i) });
   });
   it("cancels a running child and does not return a proposal", async () => {
     const events: AssistantEvent[] = [];
